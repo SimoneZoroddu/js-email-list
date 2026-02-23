@@ -20,3 +20,8 @@ function restartRandomEmail() {
 }
 
 restartRandomEmail()
+
+buttonEl.addEventListener('click', function(){
+    ulEl.innerHTML = ''
+    restartRandomEmail()
+})
